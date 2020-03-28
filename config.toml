@@ -1,8 +1,16 @@
+title = "Field Engineer site"
 baseURL = "/"
 languageCode = "en-us"
-title = "Field Engineer site"
 theme = "ananke"
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
 
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+  
 [params]
     author = "Daniele Sgardello"
     description = "raccolta di dati tecnici"

@@ -1,7 +1,7 @@
 baseURL = "https://github.com/dsgardello/hugo.git"
 languageCode = "en-us"
 title = "Field Engineer site"
-theme = "ananke"
+theme = "Binario"
 
 [permalinks]
     post = "/:year/:filename"

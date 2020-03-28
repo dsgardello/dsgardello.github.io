@@ -14,6 +14,7 @@ theme = "ananke"
     highlight = true
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    body_classes = "georgia bg-near-white"
 
 [[menu.main]]
     url = "/"

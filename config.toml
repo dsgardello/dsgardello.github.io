@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://github.com/dsgardello/hugo.git"
 languageCode = "en-us"
 title = "Field Engineer site"
 theme = "1jeffprod"

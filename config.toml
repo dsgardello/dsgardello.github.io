@@ -15,6 +15,7 @@ theme = "ananke"
     highlightStyle = "default"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
     body_classes = "georgia bg-near-white"
+    show_reading_time = true    
 
 [[menu.main]]
     url = "/about/"

@@ -24,7 +24,8 @@ SectionPagesMenu = "main"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
     body_classes = "georgia bg-near-white"
     show_reading_time = true    
-
+    #featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+    recent_posts_number = 2
 [[menu.main]]
     url = "/about/"
     name = "About"

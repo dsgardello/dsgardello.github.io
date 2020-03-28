@@ -3,6 +3,13 @@ languageCode = "en-us"
 title = "Field Engineer site"
 theme = "1jeffprod"
 
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
+
 [params]
     author = "Daniele Sgardello"
     description = "raccolta di dati tecnici"

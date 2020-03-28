@@ -1,0 +1,79 @@
+languageCode = "it-it"
+title = "Lorem Ipsum"
+
+[Params]
+  ente = "Ente appartenenza/Owner"
+  enteLink = ""
+  siteTitle = "Inserire qui il titolo"
+  siteDescription = "Inserire qui la tag line"
+
+  footerColumn1Title = "Lorem Ipsum"
+  footerColumn1Text = "Lorem Ipsum"
+  footerColumn1Links = [
+    { label = "Link 1", url = "#" },
+    { label = "Link 2", url = "#" }
+  ]
+
+  footerColumn2Title = "Lorem Ipsum"
+  footerColumn2Text = "Lorem Ipsum"
+  footerColumn2Links = [
+    { label = "Link 1", url = "#" },
+    { label = "Link 2", url = "#" },
+    { label = "Link 3", url = "#" }
+  ]
+
+  footerBottomLinks = [
+    { label = "Note legali", url = "#" },
+    { label = "Privacy policy", url = "#" }
+  ]
+
+  [Params.socials]
+    [Params.socials.facebook]
+    name = "Facebook"
+    URL = ""
+    icon = "it-facebook"
+
+    [Params.socials.github]
+    name = "GitHub"
+    URL = ""
+    icon = "it-github"
+
+    [Params.socials.twitter]
+    name = "Twitter"
+    URL = ""
+    icon = "it-twitter"
+
+  [menu]
+    # slim-header
+    [[menu.main]]
+    name = "Forum"
+    URL = ""
+    weight = 2
+
+    [[menu.main]]
+    name = "Docs"
+    URL = ""
+    weight = 3
+
+    # header-nav
+    [[menu.navbar]]
+    name = "Link 1"
+    URL = ""
+    weight = 2
+
+    [[menu.navbar]]
+    name = "Link 2"
+    URL = "link2"
+    weight = 3
+
+    [[menu.navbar]]
+    name = "Link 4"
+    URL = ""
+    parent = "Dropdown"
+    weight = 4
+
+    [[menu.navbar]]
+    name = "Link 5"
+    URL = ""
+    parent = "Dropdown"
+    weight = 5

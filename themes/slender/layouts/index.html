@@ -1,0 +1,32 @@
+{{ define "main" }}
+{{ $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+
+{{ $pag := .Paginate (where $pages "Params.hidden" "ne" true) }}
+
+<main class="homepage container py-6">
+    {{ if not $pag.HasPrev }}
+    <!-- Hero -->
+    {{ partial "hero.html" . }}
+
+    <!-- Featured articles -->
+    {{ range ($pag.Pages)}}
+    {{ .Render "feat" }}
+    {{ end }}
+
+    {{ else }}
+    <!-- Articles -->
+    <div class="articles row row-cols-1 row-cols-lg-3">
+        {{ range ($pag.Pages)}}
+        <div class="col mb-3">
+            {{ .Render "card" }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    <div class="paginator row row-cols-1">
+        {{ template "partials/paginator.html" . }}
+    </div>
+
+</main>
+{{ end }}

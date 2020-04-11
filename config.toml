@@ -4,10 +4,6 @@ languageCode    = "en-US"
 disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
-
-[params]
-  title       = "Field Engineer site"
-  subtitle    = "raccolta di dati tecnici"
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

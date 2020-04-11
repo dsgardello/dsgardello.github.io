@@ -8,55 +8,41 @@ paginate        = 10
 [params]
   title       = "Field Engineer site"
   subtitle    = "raccolta di dati tecnici"
-
-  cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
-  metaDescription = ""
-  googleAnalytics = ""
-  customCSS = []
-  RSSLink = ""
-
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
-
-  logo = ""
-  #orgName = "DS"
-  #orgWebsite = "https://www.telematika.org"
-  #orgDescription = "Here is a description placeholder for your org"
-
-  author = "DS"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Describe yourself.."
-
-  pageNotFoundTitle = "404 - Page not found"
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-
-[permalinks]
-  post = "/:slug/"
-
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+  
+[params]
+    author = "Daniele Sgardello"
+    description = "raccolta di dati tecnici"
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    body_classes = "georgia bg-near-white"
+    show_reading_time = true    
+    #featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+    recent_posts_number = 2
 [[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
+    url = "/about/"
+    name = "About"
+    weight = 2
 
 [[menu.main]]
     url = "/post/"
     name = "Posts"
-    weight = 2
+    weight = 1
 
-[[menu.main]]
-  name = "google"
-  url = "https://google.com/"
-  weight = 3
-  
-  [[menu.icon]]
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
     url = "mailto:dsgardello@gmail.com"
     name = "envelope-o"
     weight = 1
@@ -65,3 +51,16 @@ series = "series"
     url = "https://github.com/dsgardello/"
     name = "github"
     weight = 2
+
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/username/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/username/"
+    name = "stack-overflow"
+    weight = 5
+
+ 

@@ -6,6 +6,12 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 
+baseurl         = "/"
+theme           = "casper3"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

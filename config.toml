@@ -2,7 +2,7 @@ baseurl         = "/"
 theme           = "caspertwo"
 languageCode    = "en-US"
 disqusShortname = ""
-paginate        = 6
+paginate        = 10
 #SectionPagesMenu = "main"
 
 [params]
@@ -42,11 +42,7 @@ paginate        = 6
 [[menu.main]]
   name = "Home"
   url = "/"
-  weight = 200
-  [[menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 1
+  weight = 1
 
 [[menu.main]]
     url = "/post/"
@@ -56,7 +52,7 @@ paginate        = 6
 [[menu.main]]
   name = "google"
   url = "https://google.com/"
-  weight = 95
+  weight = 3
   
   [[menu.icon]]
     url = "mailto:dsgardello@gmail.com"

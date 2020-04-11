@@ -1,62 +1,60 @@
-title = "Field Engineer site"
-baseURL = "/"
-languageCode = "en-us"
-theme = "caspertwo"
-MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
+baseurl         = "/"
+theme           = "caspertwo"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-  
 [params]
-    author = "Daniele Sgardello"
-    description = "raccolta di dati tecnici"
-    githubUsername = "#"
-    accent = "red"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "default"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
-    body_classes = "georgia bg-near-white"
-    show_reading_time = true    
-    #featured_image = "/images/gohugo-default-sample-hero-image.jpg"
-    recent_posts_number = 2
-[[menu.main]]
-    url = "/about/"
-    name = "About"
-    weight = 2
+  title       = "Hugo Casper Two"
+  subtitle    = "Port of Casper 2.x for Hugo"
+
+  cover       = "img/blog-cover.jpg"
+  description = "Here is a description of your site."
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "faketryghost"
+  fbName = "fakeghost"
+  githubName = "eueung"
+
+  logo = "hugo-logo.png"
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "EM"
+  authorAvatar = "img/ghost-icon.png"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Describe yourself.."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 1
+  name = "Home"
+  url = "/"
+  weight = 200
 
-# Social icons to be shown on the right-hand side of the navigation bar.
-# The "name" field should match the name of the icon in Font Awesome.
-# The list of available icons can be found at http://fontawesome.io/icons.
+[[menu.main]]
+  name = "Go"
+  url = "/tags/golang/"
+  weight = 100
 
-[[menu.icon]]
-    url = "mailto:dsgardello@gmail.com"
-    name = "envelope-o"
-    weight = 1
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
 
-[[menu.icon]]
-    url = "https://github.com/dsgardello/"
-    name = "github"
-    weight = 2
-
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+[[menu.main]]
+  name = "External"
+  url = "https://google.com/"
+  weight = 95

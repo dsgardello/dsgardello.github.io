@@ -2,7 +2,7 @@ baseurl         = "/"
 theme           = "casper3"
 languageCode    = "en-US"
 disqusShortname = ""
-paginate        = 10
+paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
@@ -51,16 +51,3 @@ paginate        = 10
     url = "https://github.com/dsgardello/"
     name = "github"
     weight = 2
-
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
-    weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
-
- 

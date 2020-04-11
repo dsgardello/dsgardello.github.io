@@ -1,7 +1,10 @@
 title = "Field Engineer site"
 baseURL = "/"
 languageCode = "en-us"
+<<<<<<< HEAD
 theme = "caspertwo"
+=======
+>>>>>>> 413e426b45ab7d74aaad20cc65d56cc64467f3e8
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"

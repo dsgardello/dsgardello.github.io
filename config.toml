@@ -1,7 +1,7 @@
 title = "Field Engineer site"
 baseURL = "/"
 languageCode = "en-us"
-theme = "Binario"
+theme = "hasper"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"

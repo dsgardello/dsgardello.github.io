@@ -1,5 +1,5 @@
 title = "Field Engineer site"
- 
+description = "raccolta di dati tecnici"
 baseURL = "/"
 languageCode = "en-us"
 theme = "ananke"
@@ -20,7 +20,6 @@ home = [ "HTML", "RSS"]
 
 [params]
     author = "Daniele Sgardello"
-    subtitle = "raccolta di dati tecnici"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "default"
@@ -28,7 +27,7 @@ home = [ "HTML", "RSS"]
     body_classes = "georgia bg-near-white"
     show_reading_time = true    
     featured_image = "/images/default.jpg"
-    recent_posts_number = 2
+    recent_posts_number = 4
 # Social icons to be shown on the right-hand side of the navigation bar.
 # The "name" field should match the name of the icon in Font Awesome.
 # The list of available icons can be found at http://fontawesome.io/icons.

@@ -1,7 +1,7 @@
 title = "Field Engineer site"
 baseURL = "/"
 languageCode = "en-us"
-theme = "2chunky"
+theme = "2icarus"
 MetaDataFormat ="yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
